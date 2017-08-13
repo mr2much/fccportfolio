@@ -1,0 +1,234 @@
+/*
+* {
+	border: 1px solid black !important;
+}
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+/*
+@media only screen and (max-width: 500px) and (orientation: landscape) {
+	p {
+		display: none;
+	}
+}
+*/
+
+body {
+  background-color: black;
+  background-image: url("http://gdurl.com/UfNd");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+  /*text-shadow: 0 0 10px black;*/
+  
+  /*color: #EFD469;*/
+  /*color: white !important;*/
+}
+
+h1, h3 {
+	color: #747704;
+}
+
+h2 {
+	color: #BCBBBB;
+}
+
+hr {
+	border: none;
+	height: 5px;
+	color: #BCBBBB;
+}
+
+i {
+	vertical-align: middle;
+}
+
+/*ul {
+	padding: 0;
+}*/
+
+img {
+	max-width: 100%
+	max-height: 100%;
+}
+
+div {
+	background-color: rgba(188,187,187, 0.5);
+}
+
+
+/*a {
+	text-decoration: none;
+	color: #F8981C !important;
+	font-weight: bold;
+}*/
+
+#my-pic {
+	display: inline-block;
+	margin-left: 15px;
+	border-radius: 100%;
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+}
+
+.stand-out {
+	color: white;
+	display: block;
+	font-family: Helvetica;
+	font-size: 20px;
+	text-align: justify;
+	margin-top: 39.5px;
+	padding-right: 20px;
+}
+
+.big-image {
+	width: 1100px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.portrait {
+	width: 300px;
+	height: 200px;
+	object-fit: contain;
+}
+
+.navi-bar {
+	display: inline-block;
+}
+
+.navigation-bar {
+	display: inline-block;
+	list-style: none;
+	margin-left: 50px;
+}
+
+.navigation-option {
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+	font-size: 24px;
+	border: 5px solid grey;
+	border-radius: 5px 10px;
+}
+
+.contact-bar {
+	display: inline-block;
+	list-style: none;
+}
+
+.contact-option {
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+}
+
+.button {
+	border: 5px solid grey;
+	border-radius: 50%;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 38px;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	font-size: 48px;
+}
+
+.thin-font {
+	font-weight: lighter;
+}
+
+.thick-font {
+	font-weight: bolder;
+}
+
+.normal-font {
+	font-weight: normal;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.grid {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*
+.row {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+}
+*/
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;	
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 92.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+#myself {
+	border: 5px solid grey;
+	width: 250px;
+	height: 250px;
+}
