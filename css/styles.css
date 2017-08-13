@@ -39,7 +39,7 @@ h1, h3 {
 }
 
 h2 {
-	color: #BCBBBB;
+	color: #585858;
 }
 
 hr {
@@ -80,6 +80,10 @@ div {
 	overflow: hidden;
 	width: 200px;
 	height: 200px;
+}
+
+.transparent-div {
+	background-color: rgba(188,187,187, 0.5);
 }
 
 .stand-out {
